@@ -11,9 +11,9 @@
   ],
   "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
   "license": "BSD-2.0",
-  "main": "dist/cjs/Data.js",
-  "types": "dist/cjs/Data.d.ts",
-  "module": "dist/esm/Data.js",
+  "main": "dist/cjs/use-ion-form-state.js",
+  "types": "dist/cjs/use-ion-form-state.d.ts",
+  "module": "dist/esm/use-ion-form-state.js",
   "files": [
     "src",
     "dist"

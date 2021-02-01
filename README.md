@@ -59,7 +59,7 @@ import {
   IonSelect,
   IonSelectOption,
 } from '@ionic/react';
-import { useIonFormState } from './use-ion-form-state';
+import { useIonFormState } from 'react-use-ionic-form'
 
 const tags = ['apple', 'banana', 'cherry', 'orange'];
 
