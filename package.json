@@ -1,13 +1,14 @@
 {
   "name": "react-use-ionic-form",
   "version": "1.0.0",
-  "description": "Use hook and layout wrapper for ionic input components",
+  "description": "React use hook and layout wrapper for ionic input components",
   "keywords": [
-    "proxy",
-    "use-state",
     "react",
+    "ionic",
+    "form",
+    "proxy",
     "state",
-    "dispatch"
+    "use-state"
   ],
   "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
   "license": "BSD-2.0",
