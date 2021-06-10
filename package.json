@@ -1,6 +1,6 @@
 {
   "name": "react-use-ionic-form",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Use hook and layout wrapper for ionic input components",
   "keywords": [
     "proxy",
