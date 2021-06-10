@@ -11,6 +11,7 @@ import {
   IonSelectOption,
   IonTitle,
   IonToolbar,
+  IonRange,
 } from '@ionic/react';
 import type { InputChangeEventDetail } from '@ionic/core/dist/types/components/input/input-interface';
 import { useIonFormState } from './use-ion-form-state';
@@ -23,6 +24,8 @@ export default function DemoForm() {
     age: 12,
     admin: true,
     tags: ['apple', 'orange'],
+    cat: '',
+    priceRange: { lower: 10, upper: 50 },
   });
 
   return (
@@ -79,6 +82,26 @@ export default function DemoForm() {
                   </IonSelectOption>
                 ))}
               </IonSelect>
+            ),
+          })}
+          {item({
+            name: 'cat',
+            label: 'Cat',
+            renderContent: (props) => (
+              <IonSelect {...props}>
+                {tags.map((tag) => (
+                  <IonSelectOption key={tag} value={tag}>
+                    {tag}
+                  </IonSelectOption>
+                ))}
+              </IonSelect>
+            ),
+          })}
+          {item({
+            name: 'priceRange',
+            label: 'Price Range',
+            renderContent: (props) => (
+              <IonRange min={1} max={80} dualKnobs {...props} />
             ),
           })}
         </IonContent>
