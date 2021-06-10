@@ -28,7 +28,6 @@ export function IonFormItem<
   let renderLabel = props.renderLabel || IonFormItemOptions.Label;
 
   function onIonChange(e: E) {
-    console.log(e);
     let value = 'checked' in e.detail ? e.detail.checked : e.detail.value;
     if (props.mapValue) {
       value = props.mapValue(e, props.state[props.name]);
