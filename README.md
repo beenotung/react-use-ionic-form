@@ -55,7 +55,9 @@ export declare type UseIonFormItemOptions<T extends object, K extends keyof T, E
 import React from 'react';
 import {
   IonButton,
+  IonCheckbox,
   IonInput,
+  IonLabel,
   IonSelect,
   IonSelectOption,
 } from '@ionic/react';
