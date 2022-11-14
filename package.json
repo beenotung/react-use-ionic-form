@@ -39,8 +39,8 @@
     "eject": "react-scripts eject"
   },
   "peerDependencies": {
-    "@ionic/react": "^5.5.3",
-    "react": "^17.0.1"
+    "@ionic/react": "*",
+    "react": "*"
   },
   "devDependencies": {
     "@ionic/core": "^5.5.3",
